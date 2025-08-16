@@ -1,4 +1,5 @@
 # Jenkins Installation on Amazon Linux 2023 6.1 AMI
+-----------------------------------------------------------
 sudo dnf update -y
 sudo dnf install java-17-amazon-corretto-devel -y
 sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
@@ -30,6 +31,7 @@ sudo reboot
 
 
 # Jenkins Installation on Ubuntu 24.04 AMI
+-----------------------------------------------------------
 sudo apt update -y
 sudo apt install fontconfig openjdk-17-jre -y
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
